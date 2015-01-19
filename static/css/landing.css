@@ -1,0 +1,83 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+body, html, td, p {
+    font-family: arial, sans-serif;
+    font-size: 12px;
+}
+
+body{
+    font-size: 13px;
+    text-shadow:1px 1px 1px rgba(0, 0, 0, 0.54);
+    background: url("../img/background.png") repeat scroll 0 0 #1c1c1c
+}
+
+#header {
+    z-index: 300;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.75);
+    background: #3b3e41; /* Old browsers */
+    background: -moz-linear-gradient(left, #3b3e41 0%, #565a5e 23%, #5a5e62 49%, #3b3e41 100%, #0f0f0f 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #3b3e41), color-stop(23%, #565a5e), color-stop(49%, #5a5e62), color-stop(100%, #3b3e41), color-stop(100%, #0f0f0f)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #3b3e41 0%, #565a5e 23%, #5a5e62 49%, #3b3e41 100%, #0f0f0f 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #3b3e41 0%, #565a5e 23%, #5a5e62 49%, #3b3e41 100%, #0f0f0f 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #3b3e41 0%, #565a5e 23%, #5a5e62 49%, #3b3e41 100%, #0f0f0f 100%); /* IE10+ */
+    background: linear-gradient(to right, #3b3e41 0%, #565a5e 23%, #5a5e62 49%, #3b3e41 100%, #0f0f0f 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b3e41', endColorstr='#0f0f0f', GradientType=1); /* IE6-9 */
+}
+
+#logoContainer {
+    float: left;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+#logo {
+    margin: 10px 15px 0 35px;
+}
+
+#landingHeaderContainer {
+    margin-left: 340px;
+}
+.headerHeightOverlord {
+    height: 120px;
+}
+
+#toplinks {
+    color: #a4d2ee;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+#toplinks a {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#toplinks a:hover {
+    color: grey;
+    text-shadow: none;
+}
+
+a[rel="external"], a.external {
+    padding-right: 15px;
+    background: url(../img/extlink.gif) no-repeat 100% 50%;
+    zoom: 1;
+}
+
+.mainlinks {
+    margin-right: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+    border-left: 1px solid #9DAAB1;
+}
+
+a:hover.mainlinks {
+    color: black;
+}
