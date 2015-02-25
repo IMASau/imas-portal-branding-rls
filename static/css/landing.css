@@ -29,7 +29,11 @@ h1 {
 }
 
 .logo {
-    height: 100px;
+    width: 250px;
+}
+
+.ands {
+    float: left;
 }
 
 #header {
@@ -136,10 +140,3 @@ a:hover.mainlinks {
     font-size: 18px;
     margin: 10px 0;
 }
-
-/* #landingBigButton { */
-/*     margin: 150px auto 0 auto; */
-/*     display: block; */
-/*     width: 12em; */
-/*     text-align: center; */
-/* } */
