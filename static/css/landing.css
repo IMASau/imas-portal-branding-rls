@@ -16,8 +16,10 @@ body{
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
 .clear {
@@ -30,6 +32,9 @@ h1 {
 
 .logo {
     width: 250px;
+}
+.logo.rls {
+    width: 200px;
 }
 
 .ands {
