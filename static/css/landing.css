@@ -34,6 +34,9 @@ h1 {
 .logo.rls {
     width: 200px;
 }
+.logo.ands {
+    margin-right: 20px;
+}
 
 .ands {
     float: left;
@@ -110,6 +113,7 @@ a:hover.mainlinks {
     width: 620px;
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #landingBigButton {
