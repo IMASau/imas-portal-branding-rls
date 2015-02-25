@@ -5,12 +5,12 @@ html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fiel
 
 body, html, td, p {
     font-family: arial, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #4D5B63;
 }
 
 p {
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
 h1 {
@@ -36,7 +36,11 @@ h1 {
 }
 .logo.imos {
     margin-right: 10px;
-    margin-left: 40px;
+    margin-left: 145px;
+}
+
+.widelogo {
+    margin-left: 100px;
 }
 
 .ands {
@@ -111,7 +115,7 @@ a:hover.mainlinks {
 }
 
 #landingCentre {
-    width: 620px;
+    width: 800px;
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 20px;
