@@ -29,6 +29,7 @@ h1 {
 }
 .logo.rls {
     width: 200px;
+    float: right;
 }
 .logo.ands {
     margin-right: 20px;
