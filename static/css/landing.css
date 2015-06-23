@@ -10,14 +10,16 @@ body, html, td, p {
 }
 
 p {
-    margin: 15px 0;
+    margin: 0 0 15px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     display: block;
     text-align: center;
+	padding-bottom: 20px;
+
 }
 
 .clear {
@@ -33,6 +35,9 @@ h1 {
 }
 .logo.ands {
     margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 240px;
 }
 .logo.imos {
     margin-right: 10px;
@@ -41,6 +46,8 @@ h1 {
 
 .widelogo {
     margin-left: 100px;
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 .ands {
@@ -136,9 +143,9 @@ a:hover.mainlinks {
     color: #212121;
     cursor: pointer;
     display: inline-block;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 34px 18px;
+    padding: 46px 18px;
     text-decoration: none;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
     vertical-align: middle;
