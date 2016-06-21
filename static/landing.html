@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+	
     <link href="css/ext-all-notheme.css" rel="stylesheet"/>
     <link href="css/xBaseTheme.css" rel="stylesheet"/>
-    <link href="css/landing.css" rel="stylesheet">
-
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+	<link href="css/AODNTheme.css" rel="stylesheet"/>
+	<link href="overrides.css" rel="stylesheet"/>
+	
+	<link href="css/landing-general.css" rel="stylesheet"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,23 +23,27 @@
     <![endif]-->
   </head>
   <body>
-      <div id="header">
-
-          <div id="logoContainer">
-              <a href="landing.html"><img src="logo.png" alt="logo" id="logo" />
-              </a>
-          </div>
-
-          <div id="landingHeaderContainer" class="headerHeightOverlord"> </div>
-
-          <div id="toplinks">
-              <a class="external mainlinks" target="_blank" href="http://reeflifesurvey.imas.utas.edu.au/static/help.html" title="Portal Help">Help</a>
-          </div>
-      </div>
-
+	  <div id="header">
+		<div id="header-bg-image"></div>
+		<div id="logoContainer">
+			<a href="landing.html"><img src="logo.png" alt="main logo" />
+			</a>
+		</div>
+		<div id="headerContainer" >
+			<h1 id="headerTitle">Open Access to Marine Data</h1>
+		</div>
+		
+		<div id="secondaryLogoContainer">
+			<img src="https://static.emii.org.au/images/logo/IMOS_logo-stacked-reversed-Converted.png" alt="secondary logo" width="120" />
+		</div>
+		
+		<div id="toplinks">
+			<a class="external mainlinks" target="_blank" href="help.html" title="Portal Help Files">Help</a>
+		</div>
+	  </div>
 
       <div id="landingCentre">
-          <h1 class="clear">Reef Life Survey Data Portal</h1>
+          <h1>Reef Life Survey Data Portal</h1>
 		  
           <a id="landingBigButton" href="/portal/search">Get Data</a>
 
