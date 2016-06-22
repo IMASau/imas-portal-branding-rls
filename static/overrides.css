@@ -32,6 +32,7 @@ a.external:after {
 
 #headerContainer {
    float:left;
+   width:300px;
 }
 
 #headerTitle {
@@ -39,20 +40,13 @@ a.external:after {
 	padding-top: 37px;
 	
 	width: 100%;
-    height: 84px;
 	overflow: hidden;
 	background: url(//data.imas.utas.edu.au/static/img/header-text.png) no-repeat 6px 10px transparent;
+	background-size:contain;
 	
 	font-size: 37px;
     text-indent: 100%;
     white-space: nowrap;
-}
-
-@media (max-width: 800px) {
-
-    #headerContainer #headerTitle {
-        font-size: 28px;
-    }
 }
 
 #logoContainer {
